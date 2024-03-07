@@ -22,20 +22,25 @@ struct ContentView: View {
                     }
                 }
             if !isStarted {
-                Button {
-                    isStarted.toggle()
-                } label: {
-                    HStack {
-                        Text("Get Started")
-                            .font(.headline)
+                VStack {
+                    LottieView(animationFileName: "CatBall", loopMode: .loop)
+                        .frame(height: 300)
+                    
+                    Button {
+                        isStarted.toggle()
+                    } label: {
+                        HStack {
+                            Text("Get Started")
+                                .font(.headline)
+                        }
+                        .fixedSize()
+                        .padding()
                     }
-                    .fixedSize()
-                    .padding()
+                    .buttonStyle(.borderedProminent)
+                    .buttonBorderShape(.capsule)
+                    .tint(.primaryPurple)
+                    .shadow(radius: 7, x: 1, y: 3)
                 }
-                .buttonStyle(.borderedProminent)
-                .buttonBorderShape(.capsule)
-                .tint(.primaryPurple)
-                .shadow(radius: 7, x: 1, y: 3)
             } else {
                 VStack {
                     Text("Tell us what happened?")

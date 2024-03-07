@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "18D28A46-C706-4B1B-ABBF-6D6F70D27FAB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F19F4D38-494A-4272-BEF9-B8FB1B3B9FA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "found/LottieView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "sizeThatFits(_:uiView:context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F19F4D38-494A-4272-BEF9-B8FB1B3B9FA0 - a9b76518d6f6b52f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "found.LottieView.sizeThatFits(_: SwiftUI.ProposedViewSize, uiView: Lottie.LottieAnimationView, context: SwiftUI.UIViewRepresentableContext&lt;found.LottieView&gt;) -&gt; Swift.Optional&lt;__C.CGSize&gt;"
+                  moduleName = "found"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cansanchez/Desktop/found/found/LottieView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F19F4D38-494A-4272-BEF9-B8FB1B3B9FA0 - a9b76518d6f6b52f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "found.LottieView.sizeThatFits(_: SwiftUI.ProposedViewSize, uiView: Lottie.LottieAnimationView, context: SwiftUI.UIViewRepresentableContext&lt;found.LottieView&gt;) -&gt; Swift.Optional&lt;__C.CGSize&gt;"
+                  moduleName = "found"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cansanchez/Desktop/found/found/LottieView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
