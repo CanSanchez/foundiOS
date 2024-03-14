@@ -1,16 +1,11 @@
-//
-//  LottieView.swift
-//  found
-//
-//  Created by Can Sanchez on 2024-03-06.
-//
-
 import Foundation
 import SwiftUI
 import Lottie
 
+//View for lottie animations
 struct LottieView: UIViewRepresentable {
     
+    //file name to be passed from assets
     var animationFileName: String
     let loopMode: LottieLoopMode
     
@@ -20,7 +15,6 @@ struct LottieView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> Lottie.LottieAnimationView {
         let animationView = LottieAnimationView(name: animationFileName)
-        print(animationFileName)
         animationView.loopMode = loopMode
         animationView.play()
         animationView.contentMode = .scaleAspectFit

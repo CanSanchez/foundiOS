@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4EAEEE2B9A047800C0D4C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEED2B9A047800C0D4C5 /* HomeView.swift */; };
+		BA4EAEF02B9A8AA700C0D4C5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */; };
+		BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */; };
+		BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */; };
+		BA4EAEF82BA0371900C0D4C5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF72BA0371900C0D4C5 /* Network.swift */; };
 		BACAE4A72B90120300228F2E /* foundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A62B90120300228F2E /* foundApp.swift */; };
 		BACAE4A92B90120300228F2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A82B90120300228F2E /* ContentView.swift */; };
 		BACAE4AB2B90120800228F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACAE4AA2B90120800228F2E /* Assets.xcassets */; };
@@ -15,8 +20,9 @@
 		BACAE4C22B90120800228F2E /* foundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4C12B90120800228F2E /* foundUITests.swift */; };
 		BACAE4C42B90120800228F2E /* foundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4C32B90120800228F2E /* foundUITestsLaunchTests.swift */; };
 		BACAE4D42B99351A00228F2E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4D32B99351A00228F2E /* LottieView.swift */; };
-		BACAE4DB2B993E2000228F2E /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4DA2B993E2000228F2E /* TestView.swift */; };
 		BACAE4DE2B99474100228F2E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BACAE4DD2B99474100228F2E /* Lottie */; };
+		BACAE4E12B997A3900228F2E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4E02B997A3900228F2E /* PrimaryButton.swift */; };
+		BACAE4E32B99C48D00228F2E /* LostForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4E22B99C48D00228F2E /* LostForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4EAEED2B9A047800C0D4C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		BA4EAEF72BA0371900C0D4C5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BACAE4A32B90120300228F2E /* found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = found.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACAE4A62B90120300228F2E /* foundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foundApp.swift; sourceTree = "<group>"; };
 		BACAE4A82B90120300228F2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +59,8 @@
 		BACAE4C12B90120800228F2E /* foundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foundUITests.swift; sourceTree = "<group>"; };
 		BACAE4C32B90120800228F2E /* foundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foundUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BACAE4D32B99351A00228F2E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		BACAE4DA2B993E2000228F2E /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		BACAE4E02B997A3900228F2E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		BACAE4E22B99C48D00228F2E /* LostForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4EAEF42B9FFAEB00C0D4C5 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */,
+				BA4EAEF72BA0371900C0D4C5 /* Network.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		BACAE49A2B90120300228F2E = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +121,8 @@
 		BACAE4A52B90120300228F2E /* found */ = {
 			isa = PBXGroup;
 			children = (
-				BACAE4D32B99351A00228F2E /* LottieView.swift */,
-				BACAE4DA2B993E2000228F2E /* TestView.swift */,
+				BA4EAEF42B9FFAEB00C0D4C5 /* Api */,
+				BACAE4DF2B9979E300228F2E /* Components */,
 				BACAE4A62B90120300228F2E /* foundApp.swift */,
 				BACAE4A82B90120300228F2E /* ContentView.swift */,
 				BACAE4AA2B90120800228F2E /* Assets.xcassets */,
@@ -133,6 +154,19 @@
 				BACAE4C32B90120800228F2E /* foundUITestsLaunchTests.swift */,
 			);
 			path = foundUITests;
+			sourceTree = "<group>";
+		};
+		BACAE4DF2B9979E300228F2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BACAE4D32B99351A00228F2E /* LottieView.swift */,
+				BACAE4E02B997A3900228F2E /* PrimaryButton.swift */,
+				BACAE4E22B99C48D00228F2E /* LostForm.swift */,
+				BA4EAEED2B9A047800C0D4C5 /* HomeView.swift */,
+				BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */,
+				BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACAE4DB2B993E2000228F2E /* TestView.swift in Sources */,
+				BA4EAEF82BA0371900C0D4C5 /* Network.swift in Sources */,
+				BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */,
+				BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */,
+				BA4EAEF02B9A8AA700C0D4C5 /* TestView.swift in Sources */,
 				BACAE4A92B90120300228F2E /* ContentView.swift in Sources */,
+				BACAE4E32B99C48D00228F2E /* LostForm.swift in Sources */,
+				BACAE4E12B997A3900228F2E /* PrimaryButton.swift in Sources */,
+				BA4EAEEE2B9A047800C0D4C5 /* HomeView.swift in Sources */,
 				BACAE4A72B90120300228F2E /* foundApp.swift in Sources */,
 				BACAE4D42B99351A00228F2E /* LottieView.swift in Sources */,
 			);
