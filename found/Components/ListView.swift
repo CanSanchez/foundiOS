@@ -38,9 +38,6 @@ struct ListView: View {
     
 }
 
-//#Preview {
-//    ListView()
-//}
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
         ListView()

@@ -12,6 +12,8 @@
 		BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */; };
 		BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */; };
 		BA4EAEF82BA0371900C0D4C5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF72BA0371900C0D4C5 /* Network.swift */; };
+		BA4EAEFA2BD1907600C0D4C5 /* Post-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */; };
+		BA4EAEFC2BD2E50100C0D4C5 /* StartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */; };
 		BACAE4A72B90120300228F2E /* foundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A62B90120300228F2E /* foundApp.swift */; };
 		BACAE4A92B90120300228F2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A82B90120300228F2E /* ContentView.swift */; };
 		BACAE4AB2B90120800228F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACAE4AA2B90120800228F2E /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 		BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		BA4EAEF72BA0371900C0D4C5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post-ViewModel.swift"; sourceTree = "<group>"; };
+		BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartedView.swift; sourceTree = "<group>"; };
 		BACAE4A32B90120300228F2E /* found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = found.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACAE4A62B90120300228F2E /* foundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foundApp.swift; sourceTree = "<group>"; };
 		BACAE4A82B90120300228F2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,8 +98,17 @@
 			children = (
 				BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */,
 				BA4EAEF72BA0371900C0D4C5 /* Network.swift */,
+				BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */,
 			);
 			path = Api;
+			sourceTree = "<group>";
+		};
+		BA4EAEFD2BD2E50B00C0D4C5 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BACAE4E02B997A3900228F2E /* PrimaryButton.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		BACAE49A2B90120300228F2E = {
@@ -159,12 +172,13 @@
 		BACAE4DF2B9979E300228F2E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BA4EAEFD2BD2E50B00C0D4C5 /* Modifiers */,
 				BACAE4D32B99351A00228F2E /* LottieView.swift */,
-				BACAE4E02B997A3900228F2E /* PrimaryButton.swift */,
 				BACAE4E22B99C48D00228F2E /* LostForm.swift */,
 				BA4EAEED2B9A047800C0D4C5 /* HomeView.swift */,
 				BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */,
 				BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */,
+				BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -307,6 +321,7 @@
 			files = (
 				BA4EAEF82BA0371900C0D4C5 /* Network.swift in Sources */,
 				BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */,
+				BA4EAEFC2BD2E50100C0D4C5 /* StartedView.swift in Sources */,
 				BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */,
 				BA4EAEF02B9A8AA700C0D4C5 /* TestView.swift in Sources */,
 				BACAE4A92B90120300228F2E /* ContentView.swift in Sources */,
@@ -315,6 +330,7 @@
 				BA4EAEEE2B9A047800C0D4C5 /* HomeView.swift in Sources */,
 				BACAE4A72B90120300228F2E /* foundApp.swift in Sources */,
 				BACAE4D42B99351A00228F2E /* LottieView.swift in Sources */,
+				BA4EAEFA2BD1907600C0D4C5 /* Post-ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
