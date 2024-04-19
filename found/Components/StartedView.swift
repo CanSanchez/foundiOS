@@ -12,13 +12,7 @@ import SwiftUI
 struct StartedView: View {
     //State for background gradient animation
         @State private var animateGradient = false
-    //State for "Get Started" to navigate to reporting page
-        @State private var isStarted = false
-    //State to go to Lost Form View
-        @State private var isReportingLost = false
-    //State to go to Found Form View
-        @State private var isReportingFound = false
-    
+ 
     var body: some View {
         NavigationStack{
             ZStack {
@@ -59,6 +53,5 @@ struct StartedView: View {
 struct StartedView_Previews: PreviewProvider {
     static var previews: some View {
         StartedView()
-            .environmentObject(Network())
     }
 }

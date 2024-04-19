@@ -11,7 +11,6 @@
 		BA4EAEF02B9A8AA700C0D4C5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */; };
 		BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */; };
 		BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */; };
-		BA4EAEF82BA0371900C0D4C5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF72BA0371900C0D4C5 /* Network.swift */; };
 		BA4EAEFA2BD1907600C0D4C5 /* Post-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */; };
 		BA4EAEFC2BD2E50100C0D4C5 /* StartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */; };
 		BACAE4A72B90120300228F2E /* foundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A62B90120300228F2E /* foundApp.swift */; };
@@ -49,7 +48,6 @@
 		BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
-		BA4EAEF72BA0371900C0D4C5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post-ViewModel.swift"; sourceTree = "<group>"; };
 		BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartedView.swift; sourceTree = "<group>"; };
 		BACAE4A32B90120300228F2E /* found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = found.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				BA4EAEF52B9FFB0700C0D4C5 /* PostModel.swift */,
-				BA4EAEF72BA0371900C0D4C5 /* Network.swift */,
 				BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */,
 			);
 			path = Api;
@@ -319,7 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4EAEF82BA0371900C0D4C5 /* Network.swift in Sources */,
 				BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */,
 				BA4EAEFC2BD2E50100C0D4C5 /* StartedView.swift in Sources */,
 				BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */,
