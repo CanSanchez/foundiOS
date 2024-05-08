@@ -33,9 +33,7 @@ extension ListView {
                 do {
                     let decodedPosts = try JSONDecoder().decode([Post].self, from: data)
                     DispatchQueue.main.async {
-                        withAnimation {
                             self.posts = decodedPosts
-                        }
                     }
                 } catch {
                     print("Error decoding: ", error)

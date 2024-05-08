@@ -27,8 +27,7 @@ struct HomeView: View {
                         Map(position: $position)
                             .mapStyle(.hybrid(elevation: .realistic))
                     }
-                    .frame(height: 500)
-                    //ListView to display lost and found pets data
+                    .frame(height: 320)
                     HStack {
                         ListView()
                     }
@@ -42,6 +41,5 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-//            .environmentObject(Network())
     }
 }
