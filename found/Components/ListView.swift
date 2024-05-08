@@ -8,8 +8,8 @@ struct ListView: View {
         
         VStack {
             Text("List")
-                .font(.title)
-                .padding()
+                .font(.title2)
+                .padding(5)
                 .bold()
             
             List {

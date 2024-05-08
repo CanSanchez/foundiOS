@@ -27,7 +27,7 @@ struct HomeView: View {
                         Map(position: $position)
                             .mapStyle(.hybrid(elevation: .realistic))
                     }
-                    .frame(height: 320)
+                    .frame(height: 250)
                     HStack {
                         ListView()
                     }
