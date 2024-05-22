@@ -31,7 +31,7 @@ struct HomeView: View {
                     HStack {
                         ListView()
                     }
-                    .frame(height: 450)
+                    .frame(height: 500)
                 }
             }
         }

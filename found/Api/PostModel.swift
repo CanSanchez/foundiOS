@@ -17,6 +17,8 @@ struct Post: Identifiable, Codable, Hashable {
     let petbreed: String
     let petcolor: String
     let petdescription: String
+    let contactemail: String
+    let contactphone: String
     
     static var exampleItem = Post(
         pk: "1",
@@ -28,7 +30,9 @@ struct Post: Identifiable, Codable, Hashable {
         pettype: "Cat",
         petbreed: "Siamese",
         petcolor: "Chocolate Brown",
-        petdescription: "Grumpy and likes to stare"
+        petdescription: "Grumpy and likes to stare",
+        contactemail: "example@apple.com",
+        contactphone: "7781231234"
     )
 }
 

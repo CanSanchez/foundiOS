@@ -77,8 +77,12 @@ struct CardView: View {
                     card.formtype == "found" ?
                     Text("Contact founder:") : Text("Contact Owner:")
                     HStack {
-                         Image(systemName: "envelope.circle.fill")
-                         Image(systemName: "phone.circle.fill")
+                        Link(destination: URL(string: "mailto: \(card.contactemail)")!, label: {
+                            Image(systemName: "envelope.circle.fill")
+                        })
+                        Link(destination: URL(string: "mailto: \(card.contactphone)")!, label: {
+                            Image(systemName: "phone.circle.fill")
+                        })
                     }
                     .padding([.top], 2)
                 }

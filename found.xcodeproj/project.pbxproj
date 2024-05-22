@@ -25,6 +25,7 @@
 		BACAE4DE2B99474100228F2E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BACAE4DD2B99474100228F2E /* Lottie */; };
 		BACAE4E12B997A3900228F2E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4E02B997A3900228F2E /* PrimaryButton.swift */; };
 		BACAE4E32B99C48D00228F2E /* LostForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4E22B99C48D00228F2E /* LostForm.swift */; };
+		BAF5F0EC2BF3223B00B97455 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF5F0EB2BF3223B00B97455 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		BACAE4D32B99351A00228F2E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		BACAE4E02B997A3900228F2E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		BACAE4E22B99C48D00228F2E /* LostForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostForm.swift; sourceTree = "<group>"; };
+		BAF5F0EB2BF3223B00B97455 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				BA4EAEFD2BD2E50B00C0D4C5 /* Modifiers */,
 				BACAE4D32B99351A00228F2E /* LottieView.swift */,
 				BACAE4E22B99C48D00228F2E /* LostForm.swift */,
+				BAF5F0EB2BF3223B00B97455 /* ImagePicker.swift */,
 				BA4EAEED2B9A047800C0D4C5 /* HomeView.swift */,
 				BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */,
 				BA4EAEF12B9FF98600C0D4C5 /* ListView.swift */,
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF5F0EC2BF3223B00B97455 /* ImagePicker.swift in Sources */,
 				BA4EAEF22B9FF98600C0D4C5 /* ListView.swift in Sources */,
 				BA4EAEFC2BD2E50100C0D4C5 /* StartedView.swift in Sources */,
 				BA4EAEF62B9FFB0700C0D4C5 /* PostModel.swift in Sources */,
