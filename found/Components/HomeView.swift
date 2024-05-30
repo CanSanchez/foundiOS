@@ -29,7 +29,7 @@ struct HomeView: View {
                     }
                     .frame(height: 250)
                     HStack {
-                        ListView()
+                        ListView(viewModel: ListView.PostViewModel())
                     }
                     .frame(height: 500)
                 }

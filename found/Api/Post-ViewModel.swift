@@ -8,11 +8,15 @@
 import Foundation
 import SwiftUI
 
+@MainActor protocol PostViewModelProtocol {
+    var posts : [Post] { get }
+}
+
 extension ListView {
-    @MainActor class PostViewModel: ObservableObject {
-        @Published var posts = [Post]()
+    @MainActor @Observable class PostViewModel:PostViewModelProtocol {
+      var posts = [Post]()
         
-        init() {
+        public init() {
             Task {
                 await getPosts()
             }

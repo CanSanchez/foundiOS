@@ -14,6 +14,7 @@
 		BA4EAEFA2BD1907600C0D4C5 /* Post-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */; };
 		BA4EAEFC2BD2E50100C0D4C5 /* StartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */; };
 		BA4EAEFF2BD9A40200C0D4C5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EAEFE2BD9A40200C0D4C5 /* CardView.swift */; };
+		BA7388502C07FC1F00C8F25E /* LostForm-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA73884F2C07FC1F00C8F25E /* LostForm-ViewModel.swift */; };
 		BACAE4A72B90120300228F2E /* foundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A62B90120300228F2E /* foundApp.swift */; };
 		BACAE4A92B90120300228F2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAE4A82B90120300228F2E /* ContentView.swift */; };
 		BACAE4AB2B90120800228F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACAE4AA2B90120800228F2E /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		BA4EAEF92BD1907600C0D4C5 /* Post-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post-ViewModel.swift"; sourceTree = "<group>"; };
 		BA4EAEFB2BD2E50100C0D4C5 /* StartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartedView.swift; sourceTree = "<group>"; };
 		BA4EAEFE2BD9A40200C0D4C5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BA73884F2C07FC1F00C8F25E /* LostForm-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LostForm-ViewModel.swift"; sourceTree = "<group>"; };
 		BACAE4A32B90120300228F2E /* found.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = found.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACAE4A62B90120300228F2E /* foundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foundApp.swift; sourceTree = "<group>"; };
 		BACAE4A82B90120300228F2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				BA4EAEFD2BD2E50B00C0D4C5 /* Modifiers */,
 				BACAE4D32B99351A00228F2E /* LottieView.swift */,
 				BACAE4E22B99C48D00228F2E /* LostForm.swift */,
+				BA73884F2C07FC1F00C8F25E /* LostForm-ViewModel.swift */,
 				BAF5F0EB2BF3223B00B97455 /* ImagePicker.swift */,
 				BA4EAEED2B9A047800C0D4C5 /* HomeView.swift */,
 				BA4EAEEF2B9A8AA700C0D4C5 /* TestView.swift */,
@@ -330,6 +333,7 @@
 				BACAE4A92B90120300228F2E /* ContentView.swift in Sources */,
 				BACAE4E32B99C48D00228F2E /* LostForm.swift in Sources */,
 				BACAE4E12B997A3900228F2E /* PrimaryButton.swift in Sources */,
+				BA7388502C07FC1F00C8F25E /* LostForm-ViewModel.swift in Sources */,
 				BA4EAEEE2B9A047800C0D4C5 /* HomeView.swift in Sources */,
 				BACAE4A72B90120300228F2E /* foundApp.swift in Sources */,
 				BACAE4D42B99351A00228F2E /* LottieView.swift in Sources */,

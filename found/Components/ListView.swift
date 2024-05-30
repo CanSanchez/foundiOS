@@ -2,7 +2,7 @@ import SwiftUI
 
 // View for the list of found and lost pets data
 struct ListView: View {
-    @StateObject private var viewModel = PostViewModel()
+    @State public var viewModel:any PostViewModelProtocol
     
     var body: some View {
         
@@ -27,6 +27,18 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
+        ListView(viewModel: PreviewViewModel())
+    }
+}
+
+struct PreviewViewModel: PostViewModelProtocol {
+    var posts: [Post] {
+        [
+            .exampleItem,
+            .exampleItem
+        ]
+    }
+    public init() {
+        
     }
 }

@@ -4,10 +4,7 @@ import Foundation
 //Model for Post data
 
 struct Post: Identifiable, Codable, Hashable {
-    var id: String {
-        self.pk
-    }
-    let pk: String
+    let id: String?
     let createdat: String
     let petname: String
     let petimage: String
@@ -19,9 +16,12 @@ struct Post: Identifiable, Codable, Hashable {
     let petdescription: String
     let contactemail: String
     let contactphone: String
+    let updatedat: String
+    let longitude: Float
+    let latitude: Float
     
     static var exampleItem = Post(
-        pk: "1",
+        id: "1",
         createdat: "01/01/2024",
         petname: "Tom",
         petimage: "https://res.cloudinary.com/djhxv0heo/image/upload/v1678926491/mb5zx0zt0oalvwwyac8q.jpg",
@@ -32,7 +32,10 @@ struct Post: Identifiable, Codable, Hashable {
         petcolor: "Chocolate Brown",
         petdescription: "Grumpy and likes to stare",
         contactemail: "example@apple.com",
-        contactphone: "7781231234"
+        contactphone: "7781231234",
+        updatedat: "01/01/2024",
+        longitude: 49.12,
+        latitude: -123.10
     )
 }
 

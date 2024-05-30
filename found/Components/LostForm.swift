@@ -11,46 +11,45 @@ import SwiftUI
 //TODO: Create actual form
 
 struct LostFormView: View {
-    @State private var petType = "Cat"
-    @State private var petName = ""
-    @State private var petColor = ""
-    @State private var petBreed = ""
-    @State private var petDescription = ""
-    let pettypes = ["Cat", "Dog", "Bunny"]
-    
-    @State private var lastLocation = ""
-    @State private var contactEmail = ""
-    @State private var contactPhone = ""
+            
+    @State var viewModel:LostFormViewModel
 
-    
     var body: some View {
         ZStack {
             LinearGradient(colors: [.primaryPurple, .secondaryPurple, .white], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
             VStack {
                 Text("Lost Pet Form")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
                 Form {
                     ImagePickerView()
                     Section {
-                        Picker("Pet type", selection: $petType) {
-                                ForEach(pettypes, id: \.self) {
-                                    Text($0)
-                                }
+                        Picker("Pet type", selection: $viewModel.petType) {
+                            ForEach(PetType.allCases, id: \.self) {
+                                Text($0.rawValue)
                             }
-                       }
-                    Section {
-                        TextField("Pet name", text: $petName)
-                        TextField("Pet color", text: $petColor)
-                        TextField("Pet breed", text: $petBreed)
-                        TextField("Pet description", text: $petDescription)
+                        }
                     }
                     Section {
-                        TextField("Last location seen", text: $lastLocation)
+                        TextField("Pet name", text: $viewModel.petName)
+                        TextField("Pet color", text: $viewModel.petColor)
+                        TextField("Pet breed", text: $viewModel.petBreed)
+                        TextField("Pet description", text: $viewModel.petDescription)
                     }
                     Section {
-                        TextField("Owner email", text: $contactEmail)
-                        TextField("Owner phone", text: $contactPhone)
+                        TextField("Last location seen", text: $viewModel.lastLocation)
+                    }
+                    Section {
+                        TextField("Owner email", text: $viewModel.contactEmail)
+                        TextField("Owner phone", text: $viewModel.contactPhone)
+                    }
+                    Button(action: {
+                        Task {
+                            await viewModel.submitPost(
+)
+                        }
+                    }) {
+                        Text("Submit")
                     }
                 }
                 .scrollContentBackground(.hidden)
@@ -59,6 +58,8 @@ struct LostFormView: View {
     }
 }
     
-#Preview {
-    LostFormView()
+struct LostFormView_Previews: PreviewProvider {
+    static var previews: some View {
+        LostFormView(viewModel: LostFormViewModel())
+    }
 }

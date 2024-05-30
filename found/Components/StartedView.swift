@@ -27,12 +27,12 @@ struct StartedView: View {
                     LottieView(animationFileName: "BlackCat", loopMode: .loop)
                         .frame(height: 300)
                     Text("Tell us what happened?")
-                    NavigationLink(destination: LostFormView()) {
+                    NavigationLink(destination: LostFormView(viewModel: LostFormViewModel())) {
                         Text("I lost a pet")
                     }
                     .buttonStyle(PrimaryButton())
                     // Button to go to Found Form View
-                    NavigationLink(destination: LostFormView()) {
+                    NavigationLink(destination: LostFormView(viewModel: LostFormViewModel())) {
                         Text("I found a pet")
                     }
                     .buttonStyle(PrimaryButton())
