@@ -15,6 +15,7 @@ import Foundation
     var posts = [Post]()
     
     public var petType = PetType.cat
+    public var petImage = ""
     public var petName = ""
     public var petColor = ""
     public var petBreed = ""
@@ -30,7 +31,7 @@ import Foundation
             id: nil,
             createdat: ISO8601DateFormatter().string(from: Date()),
             petname: petName,
-            petimage: "https://placedog.net/400x200",  // This should be dynamic if you have an image picker
+            petimage: petImage,
             lastlocation: lastLocation,
             formtype: "Lost",
             pettype: petType.rawValue,

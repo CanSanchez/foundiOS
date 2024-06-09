@@ -14,16 +14,16 @@ struct ImagePickerView: View {
     @State private var selectImage: Image?
     
     var body: some View {
-        VStack {
+        ZStack {
             PhotosPicker("Select photo", selection: $photoItem, matching: .images)
             
             selectImage?
                 .resizable()
-                .scaledToFit()
-                .frame(width: 300, height: 300)
+                .scaledToFill()
+                .frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .padding(0)
         }
-
-        .frame(height: 150)
+        .frame(minWidth: 400, maxHeight: 200, alignment: .center)
         .onChange(of: photoItem) {
             Task {
                 if let loaded = try? await photoItem?.loadTransferable(type: Image.self) {
